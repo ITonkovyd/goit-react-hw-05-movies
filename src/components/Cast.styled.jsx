@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const CastList = styled.ul`
   display: flex;
@@ -7,10 +7,15 @@ export const CastList = styled.ul`
   margin-left: calc(-1 * 15px);
 
   list-style: none;
-`
+`;
 
 export const CastItem = styled.li`
   margin-top: 15px;
   margin-left: 15px;
   flex-basis: calc(100% / 6 - 15px);
-`
+
+  & > img {
+    display: block;
+    width: 200px;
+  }
+`;

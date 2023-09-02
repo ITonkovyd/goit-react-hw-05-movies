@@ -1,37 +1,37 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Form = styled.form`
-display: flex;
-align-items: center;
-`
+  display: flex;
+  align-items: center;
+`;
 
 export const Input = styled.input`
-margin: 20px;
-margin-right: 0px;
-border: none;
-outline: 2px solid black;
-border-radius: 4px;
-height: 30px;
-width: 500px;
-font-weight: 600;
-font-size: 24px;
-
-&:focus{
+  margin: 20px;
+  margin-right: 0px;
   border: none;
-  outline: 2px solid orange;
-}
-`
+  outline: 2px solid black;
+  border-radius: 4px;
+  height: 30px;
+  width: 500px;
+  font-weight: 600;
+  font-size: 24px;
+
+  &:focus {
+    border: none;
+    outline: 2px solid #5690a3;
+  }
+`;
 
 export const Button = styled.button`
-  height: 35px; 
+  height: 35px;
   border: 2px solid black;
   border-radius: 6px;
   font-weight: 600;
   font-size: 24px;
   margin-left: 15px;
 
-  &:hover{
+  &:hover {
     cursor: pointer;
-    background-color: orange;
+    background-color: #5690a3;
   }
-`
+`;
